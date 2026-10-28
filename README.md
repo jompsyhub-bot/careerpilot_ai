@@ -1,17 +1,23 @@
-# careerpilot_ai
+# CareerPilot AI
 
-A new Flutter project.
+An Android-first AI career assistant that helps people turn a job opportunity into a truthful, well-prepared application.
 
-## Getting Started
+## Status
 
-This project is a starting point for a Flutter application.
+Milestone 1 complete — Flutter foundation, theme, navigation, home screen, URL validator.
 
-A few resources to get you started if this is your first Flutter project:
+## Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter 3.47 stable / Dart 3.13.7
+- go_router (routing)
+- flutter_riverpod (state)
+- Supabase (auth, Postgres, storage) — not wired yet
+- Inter font via google_fonts
+- Material Icons (Lucide/Feather are incompatible with current Flutter)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Build
+
+```bash
+flutter pub get
+flutter test
+flutter run
